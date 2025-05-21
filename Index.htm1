@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>FF Diamond Top-Up</title>
+</head>
+<body>
+  <h2>ফ্রি ফায়ার ডায়মন্ড টপ-আপ</h2>
+  <form action="https://formspree.io/f/your-form-id" method="POST">
+    <label>UID:</label><br>
+    <input type="text" name="uid" required><br><br>
+
+    <label>ডায়মন্ড প্যাকেজ:</label><br>
+    <select name="package">
+      <option value="100">100 ডায়মন্ড - 100৳</option>
+      <option value="200">200 ডায়মন্ড - 190৳</option>
+    </select><br><br>
+
+    <label>পেমেন্ট মেথড:</label><br>
+    <select name="method">
+      <option value="bkash">bKash</option>
+      <option value="nagad">Nagad</option>
+    </select><br><br>
+
+    <label>TrxID:</label><br>
+    <input type="text" name="trxid" required><br><br>
+
+    <button type="submit">সাবমিট করুন</button>
+  </form>
+</body>
+</html>
